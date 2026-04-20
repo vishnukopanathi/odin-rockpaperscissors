@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: Helvetica;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 0 0px 20px;
+    font-size: 1.2rem;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 2px coral;
+}
+
+button {
+    font-size: 1.4rem;
+    border-radius: 6px;
+    padding: 5px 10px;
+    width: 100px;
+}
+button:hover {
+    background-color: coral;
+    color: white;
+}
+
+.gameResult {
+    background-color: coral;
+    color: white;
+    box-shadow: 2px 2px 2px coral;
+    padding: 10px;
+}
